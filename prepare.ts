@@ -7,12 +7,12 @@ async function prepare(rootDir: string) {
   const builtInPlugins: IConfig['plugins'] = [
     {
       name: 'add-user',
-      options: {} as any,
+      options: {}
     },
     {
       name: 'export-docx-data',
-      options: {} as any,
-    },
+      options: {}
+    }
   ]
 
   // 写入默认配置文件
